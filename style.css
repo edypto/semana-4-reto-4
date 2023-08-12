@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    line-height: 1.5;
+
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+
+}
+
+.header-navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.header ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.header-btn{
+    border: none;
+    text-transform: uppercase;
+    border: 1px solid red;
+    padding: 1rem 3rem ;
+    background-color: none;
+    background-color: transparent;
+
+}
+
+.hero{
+
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(images/buffet-1.jpg);
+    height: calc(100vh - 9rem);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-heading{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: yellow;
+    font-size: 5rem;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.section-about{
+    padding: 10rem 0;
+}
+.secondary-heading{
+   
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    position: relative;
+    
+}
+
+.secondary-heading::after{
+    content: "";
+    position: absolute;
+  
+    width: 10rem;
+    height: 2px;
+    background-color: red;
+    top: 6rem;
+    bottom: 0;
+    right: 45%;
+    
+    
+   
+    
+    
+}
+
+.about-content{
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.about-text p{
+
+    margin-bottom: 2rem;
+}
+
+.section-feature{
+
+    background-image: url(images/food-table.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.section-feature h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    color: white;
+    font-size:3.2rem;
+    text-align: center;
+
+}
+
+
+.section-clients{
+    padding-top: 10rem ;
+}
+
+
+.clientes-boxes{
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.clientes-boxes p{
+    
+    text-align: center;
+    padding: 1.5rem 0;
+    border: 1px solid #ccc;
+}
+
+.section-packages{
+    padding: 10rem 0;
+}
+
+.sub-heading{
+    font-size: 2rem;
+
+}
+
+.package-boxes{
+    margin-top: 4rem;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 2rem;
+   padding-top: 2rem;
+   
+}
+.package-box{
+
+    text-align: center;
+    padding: 2rem 0;
+    border: 1px solid black;
+
+}
+
+.package-box h3{
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.package-box p{
+    background-color: #ccc;
+    padding: 1rem 0;
+
+}
+
+.package-box ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+
+}
+.package-box i{
+    color: green ;
+    margin-right: 1rem;
+}
+
+.section-contacto{
+    padding-bottom: 10rem ;
+}
+
+.direccion{
+    text-align: center;
+}
+
+.form-group{
+    display: flex;
+    gap: 2rem;
+}
+
+.form-group div {
+    width: 100%;
+}
+
+ input{
+    width: 100%;
+    padding: 1rem 0;
+    
+}
+
+textarea{
+    margin-top: 4rem;
+    width: 100%;
+    height: 200px;
+}
+
+.btn-form{
+    border: none;
+    background-color: green;
+    padding: 1.5rem 3rem;
+    width: 20rem;
+    color: white;
+    font-size: 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
